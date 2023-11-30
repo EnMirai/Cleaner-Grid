@@ -5,11 +5,11 @@ import { useForm, useFieldArray, Controller } from "react-hook-form";
 
 import formbg from "../assets/images/formbg.jpg"
 
-const devcices = [{label:"LED",consumption:"0.005"},{label:"Fluorescent",consumption:"0.06"},{label:"Kettle",consumption:"0.11"},{label:"Heaters (Electric)",consumption:"2.5"},{label:"Tumble dryer",consumption:"5"},{label:"Cooking (oven/ electric)",consumption:"2.5"},{label:"Dishwasher",consumption:"1.8"},{label:"Washing Machine",consumption:"0.65"},{label:"Iron",consumption:"1"},{label:"Desktop computer",consumption:"0.1"},{label:"Refrigerator",consumption:"0.18"},{label:"Electric shower",consumption:"8.5"},{label:"Dehumidifier",consumption:"0.18"},{label:"Laptop",consumption:"0.06"},{label:"TV (36'')",consumption:"0.2"},{label:"Hair dryer",consumption:"1.5"},{label:"Vacuum cleaner",consumption:"1.4"},{label:"Router",consumption:"0.01"},{label:"Microwave",consumption:"0.85"},{label:"Toaster",consumption:"1.2"},{label:"Nespresso",consumption:"0.9"},{label:"Portable radio",consumption:"0.005"},{label:"Mobile phones",consumption:"0.002"}]
+const devcices = [{label:"LED",consumption:"0.005"},{label:"Fluorescent",consumption:"0.06"},{label:"Kettle",consumption:"0.11"},{label:"Heaters (Electric)",consumption:"2.5"},{label:"Tumble dryer",consumption:"5"},{label:"Cooking (oven/ electric)",consumption:"2.5"},{label:"Dishwasher",consumption:"1.8"},{label:"Washing Machine",consumption:"0.65"},{label:"Iron",consumption:"1"},{label:"Desktop computer",consumption:"0.1"},{label:"Refrigerator",consumption:"0.18"},{label:"Electric shower",consumption:"8.5"},{label:"Dehumidifier",consumption:"0.18"},{label:"Laptop",consumption:"0.06"},{label:"TV",consumption:"0.2"},{label:"Hair dryer",consumption:"1.5"},{label:"Vacuum cleaner",consumption:"1.4"},{label:"Router",consumption:"0.01"},{label:"Microwave",consumption:"0.85"},{label:"Toaster",consumption:"1.2"},{label:"Nespresso",consumption:"0.9"},{label:"Portable radio",consumption:"0.005"},{label:"Mobile phones",consumption:"0.002"}]
 
 const timePrice = {"Day":46.73,"Peak":57.09,"Night":34.34}
 
-const timeOptions = [{label:"Morning(8am - 5pm / 7pm - 11pm)",value:"Day"},{label:"Evening(5pm - 7pm)",value:"Peak"},{label:"Night(11pm - 8am)",value:"Night"}]
+const timeOptions = [{label:"Morning",value:"Day"},{label:"Evening",value:"Peak"},{label:"Night",value:"Night"}]
 
 const Slideform = () => {
     const [load, setLoad] = useState(false)
