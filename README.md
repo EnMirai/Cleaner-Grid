@@ -1,6 +1,10 @@
 # Getting Started with Enmirai Cleaner Grid Project
 
-This project was bootstrapped with [Enmirai Cleaner Grid Project](https://github.com/facebook/create-react-app).
+This project was bootstrapped for Enmirai Cleaner Grid Project.
+
+## Getting Started
+
+First we have to run `npm i` to install all the additional packages required to run the project.
 
 ## Available Scripts
 
@@ -21,5 +25,3 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
